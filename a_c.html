@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">
+      *{box-sizing:border-box;
+      margin:0;
+    padding:0;}
+
+    a:link {text-decoration: none;}
+    a:visited {text-decoration:none; color:black;}
+    ul{list-style-type:none;}
+
+    body{font-family:'나눔스퀘어';
+    font-size:100%;}
+
+    header{
+    height:200px;}
+
+    header img{ display: block; margin: 0px auto;}
+
+    nav{}
+
+    nav ul{
+      text-align :center;
+      font-family: '나눔스퀘어';
+      font-size: 100%}
+
+      nav a:link{ color: #2e2e2e; text-decoration: none;}
+
+      #main{margin-bottom: 70px;}
+      #main_menu li{
+      display: inline-block;
+      margin: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+      overflow: hidden;}
+
+      #main img{max-width: 100%;}
+
+    .c1{width:8.33%; float:left; padding:20px;}
+    .c2{width:16.66%; float:left; padding:20px;}
+    .c3{width:25%; float:left;  padding:20px;}
+    .c4{width:33.33%; float:left; padding:20px;}
+    .c5{width:41.66%; float:left; padding:20px;}
+    .c6{width:50%; float:left; padding:20px;}
+    .c7{width:58.33%; float:left; padding:20px;}
+    .c8{width:66.66%; float:left; padding:20px;}
+    .c9{width:75%; float:left; padding:20px;}
+    .c10{width:83.33%; float:left; padding:20px;}
+    .c11{width:91.66%; float:left; padding:20px;}
+    .c12{width:100%; float:left; padding:20px;}
+    .c13{width:100%; float:left; padding-left: 180px; padding-right: 180px;}
+
+
+    .button {
+  font:sans-serif;
+  display: inline-block;
+  padding: 1em;margin: 1em;
+  text-decoration: none;
+  background-image: linear-gradient(gray, black), linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+  }
+
+  .button:hover {background-size: 100% 5px, auto;}
+
+  .img{
+    position: relative;
+    background-image: url(./img/바우하우스3.jpg);
+    height: 100vh;
+    background-size: cover;
+    color:rgba(255, 255, 255, 0);
+}
+
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0);
+   z-index:1;
+   background-color: rgba(0, 0, 0, 0.4); color:white;
+}
+
+.img-cover h2{
+     position: absolute;
+     top:20%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     font-size:2rem;
+    font-color:rgba(255, 255, 255, 0);
+     z-index: 2;
+     text-align: center;
+}
+
+
+
+   #top{display:scroll;
+     position:fixed;
+     bottom:10px;
+     right:40px;
+   background-color:white;
+   opacity:80%;
+ z-index:4;}
+
+ footer{
+   height:200px;
+   padding:30px;
+   margin-top:40px;
+   background-color:#eeeeee;
+ }
+
+
+    #footer_logo{
+      float:left;
+    opacity:70%;}
+
+      #address{
+        float:right;
+        padding:15px;
+        color: #262528;
+        margin-top:40px;}
+
+        #sub_menu{
+          top:200px;
+          width:180px;
+          float:left;
+          margin-top:25px;
+          display:scroll;
+          position:fixed;
+          z-index: 4;
+        background-color: rgba(255, 255, 255, 0.79);
+        font-size: 80%}
+
+            #sub_menu li{
+              padding:10px;
+              border-bottom: dotted 1px #cccccc;}
+
+              #cc{background-color: #5e5e5e;
+              color:#ffffff;}
+
+              #text{
+                 position: absolute;
+                 height: 300px;
+                 width: 70%;
+                 top: 250px;
+                 left: 180px;
+                 bottom: auto;
+                 right: 180px;
+                 background-color: rgba(255, 255, 255, 1);
+                 z-index:4; color:#373737;
+              }
+
+              #text p{
+                   position: absolute;
+                   top:10%;
+                   left: 30px;
+                   bottom: 20%;
+                   right: 30px;
+                   font-size:1rem;
+                  font-color:rgba(255, 255, 255, 0);
+                   z-index: 2;
+                   text-align: center;}
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <header class='c12'>
+      <a href="index.html"><img src="./img/로고.jpg" alt=""></a>
+
+      <nav>
+      <ul id='main_menu'>
+        <li><a href="a_a.html" class="button" style="color:rgb(0, 149, 216)">Bauhaus</a></li>
+        <li><a href="b_a.html" class="button">people</a>
+        <li><a href="c_a.html"  class="button">work</a></li>
+        <li><a href="d_a.html" class="button">social</a></li>
+      </ul>
+      </nav>
+    </header>
+
+
+
+    <nav id='sub_menu' class='c12'>
+      <ul>
+        <div>
+        <a href="a_a.html"><li>history</li></a>
+        <div>
+        </div>
+        </div>
+        <a href="a_b.html"><li >philosophy</li></a>
+        <a href="a_c.html"><li   id='cc'>New bauhaus</li></a>
+      </ul>
+      </nav>
+
+
+
+<section id='main' class='c13'>
+    <div class="img">
+        <div class="img-cover"><h2>
+          About the Bauhaus New bauhaus</h2></div>
+          <div id="text">
+            <p>1937년 10월 시카고 미술공예협회의 후원으로 모홀리 나기László Moholy-Nagy(1895~1946)가 시카고에 설립한 미술 교육 기관.
+              당시 하버드 대학 건축과 교수였던 그로피우스Walter Gropius(1883~1969)를 고문으로 하여 처음에는 ‘뉴 바우하우스, 미국 디자인 학교The New Bauhaus, American School of Design’라는 명칭으로 36명의 학생들을 입학시켜 발족하였다.
+              그러나 관리 운영상의 실패로 이듬해인 1938년 폐쇄되고 말았다.
+              이어서 1939년에 재차 뉴 바우하우스 시대에 협력했던 사람들과 함께 디자인 학교를 재설립하고 주간과 야간과를 병설하여 운영하였다.
+              <br><br>
+                      1944년에는 ‘디자인 연구소The Institute of Design’라 개칭하고 대학으로 승격시켰다.
+                      1946년 모흘리 나기가 사망한 후, 1948년 후계자인 체르마이에프Serge Chermayeff가 뒤를 이었다.
+                      1952년에는 ‘일리노이 공과 대학Illinois Institute of Technology’에 합병되어 오늘에 이르고 있다.
+                      그 이념은 근본적으로 독일의 바우하우스*와 별 차이가 없지만 새로운 시대에 발맞춘 미국의 실정에 맞는 방향으로 전개되고 있는 것이 특징이다.
+                      기초 과정 18개월 후 전공 과정으로서 제품 디자인(product design) 부문과 커뮤니케이션 인(communication design) 부문으로 나누어져 있으며, 4년제이다.</p>
+          </div>
+    </div>
+    </section>
+
+
+
+
+    <a href="#" id='top'><img src="./img/top.jpg"></a>
+
+      <footer class='c12'>
+        <div id="footer_logo" class='c8'>
+          <img src="./img/logo2.png" alt="" width="300"></div>
+
+              <div id="#address" class='c4'><ul>
+                <li>Bauhaus-Archiv eV / Museum of Design</li>
+  <li>Schillerstraße 9</li>
+  <li>D-10625 Berlin</li>
+  <li>전화 : +49 (0) 30-254002-0</li>
+  <li>팩스 : +49 (0) 30-254002-10</li>
+  <li>이메일 : bauhaus@bauhaus.de</li></ul></div></footer>
+  </body>
+</html>

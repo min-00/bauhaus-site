@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">
+      *{box-sizing:border-box;
+      margin:0;
+    padding:0;}
+
+    a:link {text-decoration: none;}
+    a:visited {text-decoration:none; color:black;}
+    ul{list-style-type:none;}
+
+    body{font-family:'나눔스퀘어';
+    font-size:100%;}
+
+    header{
+    height:200px;}
+
+    header img{ display: block; margin: 0px auto;}
+
+    nav{}
+
+    nav ul{
+      text-align :center;
+      font-family: '나눔스퀘어';
+      font-size: 100%}
+
+      nav a:link{ color: #2e2e2e; text-decoration: none;}
+
+      #main{margin-bottom: 70px;}
+      #main_menu li{
+      display: inline-block;
+      margin: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+      overflow: hidden;}
+
+      #main img{max-width: 100%;}
+
+    .c1{width:8.33%; float:left; padding:20px;}
+    .c2{width:16.66%; float:left; padding:20px;}
+    .c3{width:25%; float:left; padding-right: 180px;}
+    .c33{width:25%; float:left; padding-left: 180px;}
+    .c4{width:33.33%; float:left; padding:20px;}
+    .c5{width:41.66%; float:left; padding:20px;}
+    .c6{width:50%; float:left; padding:20px;}
+    .c7{width:58.33%; float:left; padding:20px;}
+    .c8{width:66.66%; float:left; padding:20px;}
+    .c9{width:75%; float:left;  padding-right: 180px; padding-left: 180px; height: 330px;}
+    .c99{width:75%; float:left;  padding-left:180px;}
+    .c10{width:83.33%; float:left; padding:20px;}
+    .c11{width:91.66%; float:left; padding:20px;}
+    .c12{width:100%; float:left; padding:20px;}
+    .c13{width:100%; float:left; padding-left: 180px; padding-right: 180px;}
+
+
+
+    .button {
+  font:sans-serif;
+  display: inline-block;
+  padding: 1em;margin: 1em;
+  text-decoration: none;
+  background-image: linear-gradient(gray, black), linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+  }
+
+  .button:hover {background-size: 100% 5px, auto;}
+
+  .img{
+    position: relative;
+    background-image: url(./img/바우하우스.Jpg);
+    height: 100vh;
+    background-size: cover;
+    color:rgba(255, 255, 255, 0);
+}
+
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0);
+   z-index:1;
+   background-color: rgba(0, 0, 0, 0.4); color:white;
+}
+
+.img-cover h2{
+     position: absolute;
+     top:20%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     font-size:2rem;
+    font-color:rgba(255, 255, 255, 0);
+     z-index: 2;
+     text-align: center;
+}
+
+
+
+   #top{display:scroll;
+     position:fixed;
+     bottom:10px;
+     right:40px;
+   background-color:white;
+   opacity:80%;
+ z-index:4;}
+
+ footer{
+   height:200px;
+   padding:30px;
+   margin-top:40px;
+   background-color:#eeeeee;
+ }
+
+
+    #footer_logo{
+      float:left;
+    opacity:70%;}
+
+      #address{
+        float:right;
+        padding:15px;
+        color: #262528;
+        margin-top:40px;}
+
+        #sub_menu{
+          top:200px;
+          width:180px;
+          float:left;
+          margin-top:25px;
+          display:scroll;
+          position:fixed;
+          z-index: 4;
+        background-color: rgba(255, 255, 255, 0.79);
+        font-size: 80%}
+
+            #sub_menu li{
+              padding:10px;
+              border-bottom: dotted 1px #cccccc;}
+
+              #cc{background-color: #5e5e5e;
+              color:#ffffff;}
+
+              #mainmain{padding-top: 70px;}
+
+
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <header class='c12'>
+      <a href="index.html"><img src="./img/로고.jpg" alt=""></a>
+
+      <nav>
+      <ul id='main_menu'>
+        <li><a href="a_a.html" class="button" >Bauhaus</a></li>
+        <li><a href="b_a.html" class="button" style="color:rgb(236, 191, 37)">people</a>
+        <li><a href="c_a.html"  class="button">work</a></li>
+        <li><a href="d_a.html" class="button">social</a></li>
+      </ul>
+      </nav>
+    </header>
+
+
+
+    <nav id='sub_menu' class='c12'>
+      <ul>
+        <div>
+        <a href="b_a.html"><li id='cc'>Professors</li></a>
+        <div>
+        </div>
+        </div>
+        <a href="b_b.html"><li>students</li></a>
+      </ul>
+      </nav>
+
+      <div class="c99" id='mainmain'>
+        <h2>Marcel Breuer</h2><br>
+        <p>
+          <br>마르셀 브로이어(Marcel Breuer, 1902년 5월 22일 ~ 1981년 7월 1일)은 헝가리 출신의 모더니즘 건축가, 가구 디자이너이다.
+
+          <br>헝가리의 페치에서 태어났다. 애당초 화가와 조각가가 되고자 하여 빈으로 옮긴 뒤, 바우하우스의 제1기생으로 입교했다.
+
+          <br>그의 관심은 가구 디자인 분야에 있었으나 규격 모델을 사용한 주택에 착수함으로써 건축분야로 진출하였다.</p>
+      </div>
+      <div class="c3">
+        <img src="./img/교수1.jpg" alt="">
+      </div>
+
+      <center>
+        <hr size = "5" color="#d5d5d5" align = "CENTER" width = 80% noshade="noshade"></hr><br><br><br>
+      </center>
+
+      <div class="c33">
+        <img src="./img/교수3.jpg" alt="">
+      </div>
+      <div class="c9" id='mainmain'>
+        <h2>Василий Кандинский</h2><br>
+        <p>
+          <br>바실리 칸딘스키(러시아어: Василий Кандинский, 1866년 12월 16일~ 1944년 12월 13일)는 러시아의 화가, 판화제작자, 예술이론가(art theorist)이다.
+          <br>피카소와 마티스와 비교되며 20세기의 중요한 예술가 중의 하나로 평가되는 그는 초기 추상미술의 주요 인물 중 한명이다. : 일반적으로 그는 최초의 현대추상작품을 그린 작가로 평가된다.
+          <br>그 작품은 1910년에 그려진 수채화로서 무제이나 그 그림 뒤에 추상수채화라는 문구가 있다.
+          <br>몇몇의 역사가나 예술비평가들은 이 작품이 구성VII(1913)의 스케치와 비슷하다는 구실로 칸딘스키가 추상화의 작자로서의 자격을 손에 넣기 위해 이 수채화의 날짜를 앞당겨 쓴 것이라고 추측했다.</p>
+      </div>
+
+      <center>
+        <hr size = "5" color="#d5d5d5" align = "CENTER" width = 80% noshade="noshade"></hr><br><br><br>
+      </center>
+
+      <div class="c99" id='mainmain'>
+        <h2>László Moholy-Nagy</h2><br>
+        <p>
+        <br>모홀리 나기(László Moholy-Nagy, 1895년 7월 20일 ~ 1946년 11월 24일)는 헝가리의 화가이다.
+         <br>1923년 바우하우스에 초대되어 1928년까지 이 곳에서 연구와 교육에 종사하였다.
+         <br>구성주의에서 신조형주의의 흐름에 따른 그의 합리적인 이론과 제작은 표현주의를 기조로 하여 출발한 바우하우스의 체질을 개조하는 데 강력한 힘이었다.
+         <br>원래 그는 새로운 소재에 대하여 끝없는 욕망을 일으켜, 타블로 회화에 만족하지 않고 금속을 사용한 조형적인 실험을 시도하는가 하면, 그 성과를 새로운 사진의 수법과 결합하여 선전미술과 인쇄에 응용하는 등, 장르를 초월하여 새로운 표현 영역을 확대하였다.
+         <br>평면 및 입체의 기하학·역학·광학 등 그의 탐구는 4차원의 영역에까지 이르고 있다.
+         <br>그는 화가라든가 조각가라는 종래의 개념으로 분류될 수 있는 예술가가 아니라, 미술의 모든 장르에 창조의 가능성을 추구하는 조형가였다.
+         <br>그는 또 그로피우스를 도와 바우하우스 총서의 출판 사업에도 공헌하였다.</p>
+      </div>
+      <div class="c3">
+        <img src="./img/교수2.jpg" alt="">
+      </div>
+
+
+
+    <a href="#" id='top'><img src="./img/top.jpg"></a>
+
+      <footer class='c12'>
+        <div id="footer_logo" class='c8'>
+          <img src="./img/logo2.png" alt="" width="300"></div>
+
+              <div id="#address" class='c4'><ul>
+                <li>Bauhaus-Archiv eV / Museum of Design</li>
+  <li>Schillerstraße 9</li>
+  <li>D-10625 Berlin</li>
+  <li>전화 : +49 (0) 30-254002-0</li>
+  <li>팩스 : +49 (0) 30-254002-10</li>
+  <li>이메일 : bauhaus@bauhaus.de</li></ul></div></footer>
+  </body>
+</html>

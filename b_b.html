@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">
+      *{box-sizing:border-box;
+      margin:0;
+    padding:0;}
+
+    a:link {text-decoration: none;}
+    a:visited {text-decoration:none; color:black;}
+    ul{list-style-type:none;}
+
+    body{font-family:'나눔스퀘어';
+    font-size:100%;}
+
+    header{
+    height:200px;}
+
+    header img{ display: block; margin: 0px auto;}
+
+    nav{}
+
+    nav ul{
+      text-align :center;
+      font-family: '나눔스퀘어';
+      font-size: 100%}
+
+      nav a:link{ color: #2e2e2e; text-decoration: none;}
+
+      #main{margin-bottom: 70px;}
+      #main_menu li{
+      display: inline-block;
+      margin: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+      overflow: hidden;}
+
+      #main img{max-width: 100%;}
+
+    .c1{width:8.33%; float:left; padding:20px;}
+    .c2{width:16.66%; float:left; padding:20px;}
+    .c3{width:25%; float:left; padding-right: 180px;}
+    .c33{width:25%; float:left; padding-left: 180px;}
+    .c4{width:33.33%; float:left; padding:20px;}
+    .c5{width:41.66%; float:left; padding:20px;}
+    .c6{width:50%; float:left; padding:20px;}
+    .c7{width:58.33%; float:left; padding:20px;}
+    .c8{width:66.66%; float:left; padding:20px;}
+    .c9{width:75%; float:left;  padding-right: 180px; padding-left: 180px; height: 330px;}
+    .c99{width:75%; float:left;  padding-left:180px;}
+    .c10{width:83.33%; float:left; padding:20px;}
+    .c11{width:91.66%; float:left; padding:20px;}
+    .c12{width:100%; float:left; padding:20px;}
+    .c13{width:100%; float:left; padding-left: 180px; padding-right: 180px;}
+
+
+
+    .button {
+  font:sans-serif;
+  display: inline-block;
+  padding: 1em;margin: 1em;
+  text-decoration: none;
+  background-image: linear-gradient(gray, black), linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+  }
+
+  .button:hover {background-size: 100% 5px, auto;}
+
+  .img{
+    position: relative;
+    background-image: url(./img/바우하우스.Jpg);
+    height: 100vh;
+    background-size: cover;
+    color:rgba(255, 255, 255, 0);
+}
+
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0);
+   z-index:1;
+   background-color: rgba(0, 0, 0, 0.4); color:white;
+}
+
+.img-cover h2{
+     position: absolute;
+     top:20%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     font-size:2rem;
+    font-color:rgba(255, 255, 255, 0);
+     z-index: 2;
+     text-align: center;
+}
+
+
+
+   #top{display:scroll;
+     position:fixed;
+     bottom:10px;
+     right:40px;
+   background-color:white;
+   opacity:80%;
+ z-index:4;}
+
+ footer{
+   height:200px;
+   padding:30px;
+   margin-top:40px;
+   background-color:#eeeeee;
+ }
+
+
+    #footer_logo{
+      float:left;
+    opacity:70%;}
+
+      #address{
+        float:right;
+        padding:15px;
+        color: #262528;
+        margin-top:40px;}
+
+        #sub_menu{
+          top:200px;
+          width:180px;
+          float:left;
+          margin-top:25px;
+          display:scroll;
+          position:fixed;
+          z-index: 4;
+        background-color: rgba(255, 255, 255, 0.79);
+        font-size: 80%}
+
+            #sub_menu li{
+              padding:10px;
+              border-bottom: dotted 1px #cccccc;}
+
+              #cc{background-color: #5e5e5e;
+              color:#ffffff;}
+
+              #mainmain{padding-top: 70px;}
+
+
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <header class='c12'>
+      <a href="index.html"><img src="./img/로고.jpg" alt=""></a>
+
+      <nav>
+      <ul id='main_menu'>
+        <li><a href="a_a.html" class="button" >Bauhaus</a></li>
+        <li><a href="b_a.html" class="button" style="color:rgb(236, 191, 37)">people</a>
+        <li><a href="c_a.html"  class="button">work</a></li>
+        <li><a href="d_a.html" class="button">social</a></li>
+      </ul>
+      </nav>
+    </header>
+
+
+
+    <nav id='sub_menu' class='c12'>
+      <ul>
+        <div>
+        <a href="b_a.html"><li>Professors</li></a>
+        <div>
+        </div>
+        </div>
+        <a href="b_b.html"><li  id='cc'>students</li></a>
+      </ul>
+      </nav>
+
+      <div class="c33">
+        <img src="./img/디자이너1.jpg" alt="">
+      </div>
+      <div class="c9" id='mainmain'>
+        <h2>Johannes Itten</h2><br>
+        <p>
+          Johannes Itten (1888 년 11 월 11 일 – 1967 년 3 월 25 일)은<br> Bauhaus (Staatliches Bauhaus) 학교와 관련된 스위스 표현주의 화가, 디자이너, 교사, 작가 및 이론가였습니다.
+          <br>독일의 화가 인 Lyonel Feininger와 독일의 조각가 Gerhard Marcks와 함께 독일 건축가 Walter Gropius의 지휘하에<br>Itten은 바이마르 바우 하우스의 핵심의 일부였습니다.</p>
+      </div>
+
+      <center>
+        <hr size = "5" color="#d5d5d5" align = "CENTER" width = 80% noshade="noshade"></hr><br><br><br>
+      </center>
+
+
+
+      <div class="c99" id='mainmain'>
+        <h2>Marcel Breuer</h2><br>
+        <p>
+          <br>마르셀 브로이어(Marcel Breuer, 1902년 5월 22일 ~ 1981년 7월 1일)은 헝가리 출신의 모더니즘 건축가, 가구 디자이너이다.
+
+          <br>헝가리의 페치에서 태어났다. 애당초 화가와 조각가가 되고자 하여 빈으로 옮긴 뒤, 바우하우스의 제1기생으로 입교했다.
+
+          <br>그의 관심은 가구 디자인 분야에 있었으나 규격 모델을 사용한 주택에 착수함으로써 건축분야로 진출하였다.</p>
+      </div>
+      <div class="c3">
+        <img src="./img/디자이너2.jpg" alt="">
+      </div>
+
+      <center>
+        <hr size = "5" color="#d5d5d5" align = "CENTER" width = 80% noshade="noshade"></hr><br><br><br>
+      </center>
+
+      <div class="c33">
+        <img src="./img/디자이너3.jpg" alt="">
+      </div>
+      <div class="c9" id='mainmain'>
+        <h2>Wilhelm Wagenfeld</h2><br>
+        <p>
+          빌헬름 바겐 펠트 (Wilhelm Wagenfeld, 1900 년 4 월 15 일, 독일 브레멘, 1990 년 5 월 28 일, 슈투트가르트)는 독일의 중요한 산업 디자이너이자 바우 하우스 예술 학교의 전 학생이었습니다.
+          <br>그는 Weißwasser, Rosenthal, Braun GmbH 및 WMF에있는 Jenaer Glaswerk Schott & Gen., Vereinigte Lausitzer Glaswerke의 유리 및 금속 작업을 설계했습니다.
+           <br>그의 디자인 중 일부는 여전히 오늘날까지 생산되고 있습니다.</p>
+      </div>
+
+
+
+
+
+    <a href="#" id='top'><img src="./img/top.jpg"></a>
+
+      <footer class='c12'>
+        <div id="footer_logo" class='c8'>
+          <img src="./img/logo2.png" alt="" width="300"></div>
+
+              <div id="#address" class='c4'><ul>
+                <li>Bauhaus-Archiv eV / Museum of Design</li>
+  <li>Schillerstraße 9</li>
+  <li>D-10625 Berlin</li>
+  <li>전화 : +49 (0) 30-254002-0</li>
+  <li>팩스 : +49 (0) 30-254002-10</li>
+  <li>이메일 : bauhaus@bauhaus.de</li></ul></div></footer>
+  </body>
+</html>
